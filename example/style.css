@@ -1,0 +1,31 @@
+body{
+	padding:20px;
+	text-align:center;
+}
+h1{
+	margin:0 0 20px;
+	font:bold 20px/24px "Helvetica", Arial, Sans-Serif;
+}
+p{
+	margin:0 0 20px;
+	font:14px/16px "Helvetica", Arial, Sans-Serif;
+}
+#box{
+	width:337px;
+	height:337px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#box div{
+	width:20px;
+	height:20px;
+	margin:0 -1px -1px 0;
+	border:1px solid #000000;
+	float:left;
+}
+#box div:nth-child(16n + 1){
+	clear:left;
+}
+#box div.active{
+	background:#ff0000;
+}
