@@ -1,8 +1,8 @@
-#drng
+# drng
 
 Adds the pseudorandom number generator from id Software's DOOM to the native Math object
 
-##Installation
+## Installation
 
 For browser use, include thusly:
 
@@ -16,7 +16,7 @@ For use in Node.js, include thusly:
 require('./drng')
 ```
 
-##Usage
+## Usage
 
 To return the next "random" number:
 
@@ -30,7 +30,7 @@ To reset the index, pass `true` to the function:
 Math.drng(true);
 ```
 
-##Explanation
+## Explanation
 
 See the [original code](https://github.com/id-Software/DOOM/blob/77735c3ff0772609e9c8d29e3ce2ab42ff54d20b/linuxdoom-1.10/m_random.c) in `m_random.c` in the DOOM source code.
 
